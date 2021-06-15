@@ -1,0 +1,53 @@
+
+img.logo-header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+h1, h3{
+    background-color:#C4C4C4; 
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    letter-spacing: 0.3em;
+    padding: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+
+    font-size: 20px;
+    text-align: left;
+}
+
+span.item{
+    font-weight: bold;
+    font-style: italic;
+}
+
+span.fecha{
+    font-weight: bold;
+}
+
+p.barra-footer{
+
+    background: #005677;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    text-align: center;
+      
+   
+}
+
+img.footer{
+
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;  
+}
+
