@@ -3,7 +3,7 @@ img.logo-header{
     display: block;
     margin-left: auto;
     margin-right: auto; 
-}
+  }
 h1, h3{
     background-color:#C4C4C4; 
     color: #005677;
@@ -51,3 +51,7 @@ img.footer{
     vertical-align: middle;  
 }
 
+dd {
+    margin-left: 80px;
+
+}
