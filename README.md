@@ -1,4 +1,4 @@
-<a href="https://viessel.github.io/CV-Batman/">GitHug Page"</a>
+<a href="https://viessel.github.io/CV-Batman/">GitHug Page</a>
 # Dudas
 
 mg margin vs padding
