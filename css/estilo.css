@@ -1,0 +1,125 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.limit-width {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+header .header-logo:hover {
+  -webkit-animation: nanana 1s linear 0.1s 2 alternate;
+          animation: nanana 1s linear 0.1s 2 alternate;
+}
+
+header h1 {
+  background-color: #C4C4C4;
+  color: #005677;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.datos, .formacion, .experiencia {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+}
+
+.datos > div, .formacion > div, .experiencia > div {
+  background-color: #C4C4C4;
+}
+
+.datos-titulo, .formacion-titulo, .experiencia-titulo {
+  color: #005677;
+  padding: 1rem;
+}
+
+.fecha {
+  font-weight: 700;
+}
+
+.datos-lista {
+  padding: 2rem;
+}
+
+.datos-lista-item {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.formacion-definiciones, .experiencia-definiciones {
+  padding: 2rem;
+}
+
+.formacion-definiciones dd, .experiencia-definiciones dd {
+  color: gray;
+  display: inline-block;
+  font-size: 1.3rem;
+  padding-left: 7.5rem;
+}
+
+footer {
+  background-color: #005677;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer .barra {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 700;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .barra-img {
+  padding: 0px 0.5rem;
+}
+
+@-webkit-keyframes nanana {
+  0% {
+    -webkit-transform: rotate(0.5turn) scale(50%);
+            transform: rotate(0.5turn) scale(50%);
+  }
+  50% {
+    -webkit-transform: rotate(1turn) scale(25%);
+            transform: rotate(1turn) scale(25%);
+  }
+  100% {
+    -webkit-transform: rotate(2turn) scale(0%);
+            transform: rotate(2turn) scale(0%);
+  }
+}
+
+@keyframes nanana {
+  0% {
+    -webkit-transform: rotate(0.5turn) scale(50%);
+            transform: rotate(0.5turn) scale(50%);
+  }
+  50% {
+    -webkit-transform: rotate(1turn) scale(25%);
+            transform: rotate(1turn) scale(25%);
+  }
+  100% {
+    -webkit-transform: rotate(2turn) scale(0%);
+            transform: rotate(2turn) scale(0%);
+  }
+}
+/*# sourceMappingURL=estilo.css.map */

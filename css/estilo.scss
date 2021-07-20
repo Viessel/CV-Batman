@@ -1,0 +1,87 @@
+@import "_base.scss";
+
+header {
+    text-align: center;
+    padding: 1rem 0rem;
+    .header-logo {
+       &:hover {
+           animation: nanana 1s linear 0.1s 2 alternate; }
+    }
+    h1 {
+        background-color: $secundario;
+        color: $principal;
+        letter-spacing: 0.3rem;
+        text-transform: uppercase;
+        font-size: 2rem;
+        padding:  2rem;
+        }
+}
+
+
+.datos, .formacion, .experiencia {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    &>div {
+        background-color: $secundario;  
+    }
+    &-titulo {
+        color: $principal;
+        padding: 1rem;
+    } 
+}
+
+.fecha {
+    font-weight: 700;
+}
+
+.datos {
+    &-lista {
+        padding: 2rem;
+        &-item {
+            font-style: italic;
+            font-weight: 700;
+        }
+    }
+}
+
+.formacion, .experiencia {
+    &-definiciones {
+        padding: 2rem;
+        dd {
+            color: gray;
+            display: inline-block;
+            font-size: 1.3rem;
+            padding-left: 7.5rem;
+        }
+    }
+}
+
+footer {
+    background-color: $principal;
+    padding: 1rem;
+    text-align: center;
+    .barra {
+        align-items: center;
+        color: white;
+        display: flex;
+        font-size: 1.2rem;
+        font-weight: 700;
+        justify-content: center;
+        
+        &-img{
+            padding: 0px 0.5rem;   
+        }
+    }
+}
+
+@keyframes nanana {
+    0% {
+        transform: rotate(0.5turn) scale(50%);
+    }
+    50% {
+        transform: rotate(1turn) scale(25%);
+    }
+    100% {
+        transform: rotate(2turn) scale(0%);
+    }
+}

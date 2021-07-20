@@ -1,6 +1,8 @@
-<a href="https://viessel.github.io/CV-Batman/">GitHug Page</a>
-# Dudas
+# Batman CV
+Actividad realizada para la clase de SASS en Front End I 
 
-mg margin vs padding
-vertical align -> test y error en el footer como es la manera correcta de hacerlo?
-Como acomodar la barra del foter????
+<a href="https://viessel.github.io/CV-Batman/">GitHug Page</a>
+
+Se agrego estilo mediante SASS y se trato de aplicar concatenar con '&'.
+
+No toques a batman!

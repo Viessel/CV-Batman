@@ -1,0 +1,14 @@
+$principal: #005677;
+$secundario: #C4C4C4;
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.limit-width {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}

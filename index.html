@@ -1,46 +1,64 @@
 <!DOCTYPE html>
 <html lang="es-Ar">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Bruce Wayne</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
     <header>
-        <img src="img/logo batman.png" alt="logo-batman" class="logo-header">
+        <img src="img/logo batman.png" alt="logo-batman" class="header-logo">
         <h1>curriculum vitae de bruce wayne</h1>
     </header>
+
     <body>
-        <h3 class="h-seccion">Datos personales</h3>
-        <ul>
-            <li><span class="item">Nombre completo:</span> Bruce Wayne</li>
-            <li><span class="item">Fecha de nacimiento:</span> 01/05/1939</li>
-            <li><span class="item">Lugar de nacimiento:</span> Gotham City</li>
-        </ul>
+        <section class="datos">
+            <div>
+                <h3 class="datos-titulo limit-width">Datos personales</h3>
+            </div>
+            <ul class="datos-lista limit-width">
+                <li><span class="datos-lista-item">Nombre completo:</span> Bruce Wayne</li>
+                <li><span class="datos-lista-item">Fecha de nacimiento:</span> 01/05/1939</li>
+                <li><span class="datos-lista-item">Lugar de nacimiento:</span> Gotham City</li>
+            </ul>
+        </section>
+        <section class="formacion">
+            <div>
+                <h3 class="formacion-titulo limit-width">Formacion académica</h2>
+            </div>
+            <dl class="formacion-definiciones limit-width">
+                <dt><span class="fecha">1956-1961:</span> Universidad del espántapajaros</dt>
+                <dd>Licenciatura en aeronaútica</dd>
+                <dt><span class="fecha">1952-1956:</span> Secundario Gotham</dt>
+                <dd>Bachiller con especializacion en trucos</dd>
+            </dl>
+        </section>
+        <section class="experiencia">
+            <div>
+                <h3 class="experiencia-titulo limit-width">Experiencia laboral</h3>
+            </div>
+            <dl class="experiencia-definiciones limit-width">
+                <dt><span class="fecha">1975-1985:</span> Desocupado</dt>
+                <dd>Sin trabajo por que se me rompio el batimovil</dd>
+                <dt><span class="fecha">1965-1975:</span> Cazavillanos y demás chusma</dt>
+                <dd>Atrapé a Gatubela, a Joker, a Victor Fries lo deje por que se me congeló la capa</dd>
+                <dt><span class="fecha">1962-1965:</span> Aprendiz de superhéroes</dt>
+                <dd>Hice pasantia con Superman. Opté por usar mascara porque no pude peinarme el rulo</dd>
 
-        <h3 class="h-seccion">Formacion académica</h2>
-        <dl>
-            <dt><span class="fecha">1956-1961:</span> Universidad del espántapajaros</dt>
-            <dd>Licenciatura en aeronaútica</dd>
-            <dt><span class="fecha">1952-1956:</span> Secundario Gotham</dt>
-            <dd>Bachiller con especializacion en trucos</dd>
-        </dl>
-
-        <h3>Experiencia laboral</h3>
-        <dl>
-            <dt><span class="fecha">1975-1985:</span> Desocupado</dt>
-            <dd>Sin trabajo por que se me rompio el batimovil</dd>
-            <dt><span class="fecha">1965-1975:</span> Cazavillanos y demás chusma</dt>
-            <dd>Atrapé a Gatubela, a Joker, a Victor Fries lo deje por que se me congeló la capa</dd>
-            <dt><span class="fecha">1962-1965:</span> Aprendiz de superhéroes</dt>
-            <dd>Hice pasantia con Superman. Opté por usar mascara porque no pude peinarme el rulo</dd>
-
-        </dl>
+            </dl>
+        </section>
     </body>
     <footer>
-        <p  class="barra-footer"><span>0810 - BATMAN</span> <img class="footer" src="img/ico_instagram.png" alt="icono-ig"><img class="footer" src="img/ico_linkedin.png" alt="icono-linkedin"></p>
+        <p class="barra">
+            <span>0810 - BATMAN</span>
+            <img class="barra-img" src="img/ico_instagram.png" alt="icono-ig">
+            <img class="barra-img" src="img/ico_linkedin.png" alt="icono-linkedin">
+        </p>
     </footer>
 </body>
+
 </html>
